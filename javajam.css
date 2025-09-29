@@ -1,0 +1,37 @@
+/* javajam.css - External Style Sheet for JavaJam */
+
+/* Global styles for the document */
+body {
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+/* Styles for the header element */
+header {
+    background-color: #D2B48C;
+}
+
+/* Styles for the h1 element */
+h1 {
+    line-height: 200%;
+}
+
+/* Styles for the nav element */
+nav {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Styles for the footer element */
+footer {
+    background-color: #D2B48C;
+    font-size: 0.60em;
+    font-style: italic;
+    text-align: center;
+}
+wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
