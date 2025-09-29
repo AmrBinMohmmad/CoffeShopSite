@@ -5,22 +5,41 @@ body {
     background-color: #FCEBB6;
     color: #221811;
     font-family: Verdana, Arial, sans-serif;
+    background-image: url("javajam/background.gif");
 }
 
 /* Styles for the header element */
 header {
     background-color: #D2B48C;
+    height: 150px;
+    background-image: url("javajam/javajamlogo.jpg");
+    background-repeat: no-repeat;
+    
 }
 
 /* Styles for the h1 element */
 h1 {
-    line-height: 200%;
+    text-align: center;
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+    color: #221811;
+    text-shadow: 2px 2px 4px #aaa;
 }
 
 /* Styles for the nav element */
 nav {
     text-align: center;
     font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    
+
+}
+nav a {
+    text-decoration: none;
+    color: #221811;
+    margin: 0 15px;
 }
 
 /* Styles for the footer element */
@@ -31,7 +50,14 @@ footer {
     text-align: center;
 }
 wrapper {
+    background-color: #FEF6C2;
     width: 80%;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-right: auto;
     margin-left: auto;
+}
+h3 {
+    background-color: #D2B48C;
 }
